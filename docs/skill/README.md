@@ -75,6 +75,10 @@ python eligibility_check.py answers.json -o 自查报告.md
 - 当 CNAS 官网申请条件、CL10 / RL10 / RL02 / AL21 换版，或人遗法规更新时，须**同步更新三处**：`references/01-basis.md`、`references/02-eligibility.md`、`scripts/eligibility_check.py`，并在 `SKILL.md` 记录新版本日期。
 - 客户名称、项目阶段、评审时间等客户事实**不得写入本技能**，只存客户档案。
 
+## 开源许可
+
+本知识包采用 **MIT License**（许可证全文见仓库根目录 `LICENSE`）。允许免费使用、复制、修改与商用（含商业咨询交付），只需保留版权与许可声明；各模板与 `SKILL.md` 已内置庚寅咨询署名。独立分发本目录时请一并附上 `LICENSE` 文件。
+
 ## 免责声明
 
 本技能只判断「是否具备申请资格」与「如何准备」，不判断「能否通过评审」，不替代 CNAS 官方受理与评定决定；所有输出为基于公开认可规范与法规的初步评估，**不构成认证结论或法律意见**。正式申请请以 CNAS 最新发布文件及评审组现场判定为准。
