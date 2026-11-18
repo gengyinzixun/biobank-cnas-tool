@@ -62,8 +62,23 @@ src/
   utils/          # Word 导出
 docs/
   依据清单-CNAS生物样本库认可.md
+  skill/                      # 中文「生物样本库 CNAS 认可」Agent Skill（可安装的知识包）
+    README.md
+    biobank-cnas-accreditation/
+      SKILL.md
+      references/             # 9 份依据与流程
+      scripts/                # 确定性资格快判脚本
+      assets/                 # 6 份可交客户模板
 smoke-test.mts    # 规则引擎冒烟测试
 ```
+
+## 配套：中文咨询知识包（Agent Skill）
+
+除在线工具外，本仓库同时开源一份**中国口径**的 Agent Skill，可直接安装到 WorkBuddy / Claude Code 使用。它把 8 项申请条件、22 题自查题库、三档资格判定、7 阶段咨询 SOP、法规依据、人源合规红线、6 份可交客户模板与一个确定性判定脚本固化为可复用知识包。
+
+与 GitHub 上依据 ISBER / CAP / GDPR 的英文同类 Skill 不同，本技能以 CNAS-CL10:2020 / GB/T 37864-2019、RL10 / RL02 / AL21 及 2026 年卫健委令第 16 号为准，并纠正了 CL06、内审 4.7 / 管评 4.8 等网络误标。
+
+详见 [`docs/skill/README.md`](docs/skill/README.md)（安装方式、目录结构、脚本用法、维护约定）。
 
 ---
 
